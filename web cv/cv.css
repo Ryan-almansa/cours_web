@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "bandeau bandeau bandeau"
+        "menuhaut contenu contenu"
+        "menubas contenu contenu"
+        "pieddepage pieddepage pieddepage";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr 1fr auto;
+    height: 100vh;
+}
+
+.bandeau {
+    grid-area: bandeau;
+    background-color: rgb(32, 9, 165);
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-haut {
+    grid-area: menuhaut;
+    background-color:  rgb(171, 167, 192);
+    padding: 20px;
+}
+
+.menu-bas {
+    grid-area: menubas;
+    background-color:  rgb(171, 167, 192);
+    padding: 20px;
+}
+
+.contenu {
+    grid-area: contenu;
+    text-align: center;
+    background-color:  rgb(12, 185, 177);
+    width: 100%;
+}
+
+.bloc-news {
+    float: right;
+    background-color:  rgb(171, 167, 192);
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+
+}
+.pied-de-page {
+    grid-area: pieddepage;
+    background-color:  rgb(175, 70, 70);;
+    padding: 20px;
+    text-align: center;
+}
+
+/*_______*#####* 
+____*##########* 
+__*############## 
+__################ 
+_##################_________**####* 
+__##################_____*########## 
+__##################___*############# 
+___#################*_###############* 
+____#################################* 
+______############################### 
+_______#############################* __________ 
+________*##########################__________ 
+__________######################## 
+___________*####################* 
+____________*################## 
+_____________*############### 
+_______________############# 
+________________########## 
+________________*#######* 
+_________________###### 
+__________________#### 
+__________________### 
+___________________#/*
+
+
