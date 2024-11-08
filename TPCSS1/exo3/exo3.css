@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "bandeau bandeau bandeau"
+        "menuhaut contenu blocnews"
+        "menubas contenu blocnews"
+        "pieddepage pieddepage pieddepage";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr 1fr auto;
+    height: 100vh;
+    gap: 10px;
+}
+
+.bandeau {
+    grid-area: bandeau;
+    background-color: cyan;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-haut {
+    grid-area: menuhaut;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.menu-bas {
+    grid-area: menubas;
+    background-color: lightpink;
+    padding: 20px;
+}
+
+.contenu {
+    grid-area: contenu;
+    background-color: yellow;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.bloc-news {
+    grid-area: blocnews;
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+.pied-de-page {
+    grid-area: pieddepage;
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+.bande {
+    grid-area: bande;
+    background-color: cyan;
+    padding: 20px;
+    text-align: center;
+}
