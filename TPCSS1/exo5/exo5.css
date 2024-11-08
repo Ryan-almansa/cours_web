@@ -1,0 +1,16 @@
+body {
+    animation: clignoter 2s infinite;
+  }
+  
+  @keyframes clignoter {
+    0% {
+      background-color: #16070f59;
+    }
+    50% {
+      background-color: #5d2280;
+    }
+    100% {
+      background-color: #156574;
+    }
+  }
+  

@@ -12,13 +12,21 @@ body {
     display: grid;
     grid-template-areas: 
         "bandeau bandeau bandeau"
+<<<<<<< HEAD
         "menuhaut contenu blocnews"
         "menubas contenu blocnews"
+=======
+        "menuhaut contenu contenu"
+        "menubas contenu contenu"
+>>>>>>> 12a2b43b26de9345ec8a1aa8e9d1629d3ec0c9d3
         "pieddepage pieddepage pieddepage";
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto 1fr 1fr auto;
     height: 100vh;
+<<<<<<< HEAD
     gap: 10px;
+=======
+>>>>>>> 12a2b43b26de9345ec8a1aa8e9d1629d3ec0c9d3
 }
 
 .bandeau {
@@ -43,6 +51,7 @@ body {
 .contenu {
     grid-area: contenu;
     background-color: yellow;
+<<<<<<< HEAD
     padding: 20px;
     overflow-y: auto;
 }
@@ -54,15 +63,32 @@ body {
     text-align: center;
 }
 
+=======
+    width: 100%;
+}
+
+.bloc-news {
+    float: right;
+    background-color: orange;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+
+}
+>>>>>>> 12a2b43b26de9345ec8a1aa8e9d1629d3ec0c9d3
 .pied-de-page {
     grid-area: pieddepage;
     background-color: lightgreen;
     padding: 20px;
     text-align: center;
 }
+<<<<<<< HEAD
 .bande {
     grid-area: bande;
     background-color: cyan;
     padding: 20px;
     text-align: center;
 }
+=======
+
+>>>>>>> 12a2b43b26de9345ec8a1aa8e9d1629d3ec0c9d3
